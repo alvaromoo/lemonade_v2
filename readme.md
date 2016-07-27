@@ -3,11 +3,11 @@
 Lemonade es un starterkit ligero enfocado a desarrolladores Frontend.
 
 
-## Instalaci髇
+## Instalaci贸n
 
 Es necesario tener instalado [Node.js](https://nodejs.org/) en tu equipo.
 
-Tambi閚 necesitar醩 tener Gulp instalado globalmente en tu sistema:
+Tambi茅n necesitar谩s tener Gulp instalado globalmente en tu sistema:
 
 ```sh
 $ npm i -g gulp
@@ -18,7 +18,7 @@ Clona el repositorio.
 $ git clone git@bitbucket.org:proximitymadrid/plantilla_piezas.git
 ```
 
-Una vez clonado, desde la ra韟, instalamos los m骴ulos de Gulp.
+Una vez clonado, desde la ra铆z, instalamos los m贸dulos de Gulp.
 ```sh
 $ npm install
 ```
@@ -26,11 +26,12 @@ $ npm install
 Finalmente podemos arrancar la pieza.
 ```sh
 $ gulp
+```
 
 
-## Versi髇
-Versi髇 2.0
+## Versi贸n
+Versi贸n 2.0
 
 
 ## Copyright
-Copyright (c) 2016 羖varo M鰋 - hola@alvaromoo.com
+Copyright (c) 2016 脕lvaro M枚o - hola@alvaromoo.com
