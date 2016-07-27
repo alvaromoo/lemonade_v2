@@ -17,6 +17,15 @@ $z-layers: (
 	"bottomless-pit": -9000
 );
 
+// Map deep get
+@function map-deep-get($map, $keys...) {
+	@each $key in $keys {
+		$map: map-get($map, $key);
+	}
+
+	@return $map;
+}
+
 // Función
 @function z($keys...){
 	$index: map-deep-get($z-layers, $keys...);
