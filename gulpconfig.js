@@ -20,7 +20,8 @@ module.exports = {
 		in: basePaths.dev + 'sass/**/*.scss',
 		out: basePaths.app + 'css',
 		dir: basePaths.dev + 'sass/',
-		min: basePaths.app + ''
+		min: basePaths.app + 'css/min',
+		name: 'styles.css'
 	},
 	js: {
 		in: basePaths.dev + 'js/*.js',

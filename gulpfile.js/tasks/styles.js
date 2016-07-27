@@ -13,8 +13,9 @@ gulp.task('styles', function () {
 	return gulp.src(path.in)
 		.pipe(plumber())
 		.pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
-		// .pipe(gulp.dest(path.out))
-		// .pipe(rename({ suffix: '.min' }))
+		.pipe(rename(path.name))
+		.pipe(gulp.dest(path.out))
+		.pipe(rename({ suffix: '.min' }))
 		.pipe(cleanCSS({compatibility: 'ie8'}))
 		.pipe(gulp.dest(path.min))
 		.pipe(connect.reload());
