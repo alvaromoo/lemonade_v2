@@ -1,0 +1,73 @@
+// Color | Magenta
+$color-magenta: #a00ac8;
+$color-magenta-dark: darken($color-magenta, 10%);
+$color-magenta-light: lighten($color-magenta, 10%);
+
+// Color | Morado
+$color-purple: #a00ac8;
+$color-purple-dark: darken($color-purple, 10%);
+$color-purple-light: lighten($color-purple, 10%);
+
+// Color | Amarillo
+$color-yellow: #f7c939;
+$color-yellow-dark: darken($color-yellow, 10%);
+$color-yellow-light: lighten($color-yellow, 10%);
+
+// Color | Rosa
+$color-pink: #e90a66;
+$color-pink-dark: darken($color-pink, 7%);
+$color-pink-light: lighten($color-pink, 7%);
+
+// Color | Verde
+$color-green: #0ada7c;
+$color-green-dark: darken($color-green, 10%);
+$color-green-light: lighten($color-green, 10%);
+
+// Color | Carne
+$color-meat: #ffc58b;
+$color-meat-dark: darken($color-meat, 10%);
+$color-meat-light: lighten($color-meat, 10%);
+
+// Color | Orange
+$color-orange: #ff9920;
+$color-orange-dark: darken($color-orange, 10%);
+$color-orange-light: lighten($color-orange, 10%);
+
+// Color | Verde zen
+$color-zen: #BEF8DB;
+$color-zen-dark: darken($color-zen, 10%);
+$color-zen-light: lighten($color-zen, 10%);
+
+// Color | Blanco y Negro
+$color-light: #fff;
+$color-dark: #000;
+
+// Colores | Grises
+$color-grey-light: #ededed;
+$color-grey: #818181;
+$color-grey-dark: #5a5a5a;
+$color-grey-darker: #404040;
+
+// Colores | Caja
+$color-box: rgba(233, 10, 102, 0.6);
+
+// Colores | Asignaciones
+$color-banner-bg: $color-green;
+
+
+// Tamaños
+$size-container: 956px;
+$size-gap-bars: 1.5em;
+$size-gap-sections: 3em;
+
+// Margen de las cajas (banner)
+$gap-boxes: 2rem;
+$gap-mobile-footer: 4rem;
+
+$height-line: 0.4rem;
+
+// Transición
+$transition-all: all 0.3s ease-in-out;
+$transition-link: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+$transition-bg-position: background 0.5s ease-out;
+$transition: $transition-all;

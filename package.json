@@ -1,0 +1,35 @@
+{
+  "name": "1607_landing_local",
+  "version": "1.0.0",
+  "description": "Landing para tarifa de julio de Tuenti",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://alvaromoo@bitbucket.org/proximity_tuenti/1607_landing_tarifa.git"
+  },
+  "author": "amoreno",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/proximity_tuenti/1607_landing_tarifa#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.11",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^4.1.0",
+    "gulp-gulp": "0.0.5",
+    "gulp-jade": "^1.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-open": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-prettify": "^0.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4",
+    "gulp-watch": "^4.3.8",
+    "require-dir": "^0.3.0"
+  }
+}
