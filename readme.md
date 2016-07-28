@@ -15,7 +15,7 @@ $ npm i -g gulp
 
 Clona el repositorio.
 ```sh
-$ git clone git@bitbucket.org:proximitymadrid/plantilla_piezas.git
+$ git clone https://github.com/alvaromoo/lemonade.git
 ```
 
 Una vez clonado, desde la raíz, instalamos los módulos de Gulp.
