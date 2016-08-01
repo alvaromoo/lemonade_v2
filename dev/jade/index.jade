@@ -1,43 +1,7 @@
-doctype html
-html(lang='es').no-js
-	head
-		//- Meta y título
-		meta(charset='utf-8')
-		meta(http-equiv="x-ua-compatible" content="ie=edge")
-		title='Lemonade, a freshing sip'
-		meta(name='description' content='Starterkit for Frontend developments')
-		meta(name='viewport' content='width=device-width, initial-scale=1')
+extends templates/_page
 
-		//- //- Place favicon.ico in the root directory
-		//- link(rel="apple-touch-icon" href="apple-touch-icon.png")
-		//- link(rel='shortcut icon' href='favicon.png')
+block content
+	article
+		h1 ¡Hola mundo!
 
-		//- CSS
-		link(rel='stylesheet' href='css/min/styles.min.css')
-		
-		//- //- FontAwesome
-		//- link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css')
-
-		//- //- Greensock
-		//- script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js')
-		//- script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TimelineMax.min.js')
-
-
-	body
-
-		include partials/_ifltie8
-
-		header
-
-		main
-			//- Add your site or application content here
-			p ¡Hola mundo! Esto es Lemonade, un refrescante starterkit para desarrollos Frontend.
-
-		aside
-
-		footer
-
-		//- JS
-		script(type='application/javascript' src='js/min/scripts.min.js')
-
-		//- include partials/_analytics
+block aside
