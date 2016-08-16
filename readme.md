@@ -33,5 +33,5 @@ $ gulp
 Versión 2.0
 
 
-## Copyright
-Copyright (c) 2016 Álvaro Möo - hola@alvaromoo.com
+## Autor
+Álvaro Möo - hola@alvaromoo.com
