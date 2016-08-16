@@ -23,7 +23,7 @@ Una vez clonado, desde la raíz, instalamos los módulos de Gulp.
 $ npm install
 ```
 
-Finalmente podemos arrancar la pieza.
+Finalmente podemos arrancar el proyecto.
 ```sh
 $ gulp
 ```
