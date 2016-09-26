@@ -10,17 +10,17 @@ Es necesario tener instalado [Node.js](https://nodejs.org/) en tu equipo.
 También necesitarás tener Gulp instalado globalmente en tu sistema:
 
 ```sh
-$ npm i -g gulp
+npm i -g gulp
 ```
 
 Clona el repositorio.
 ```sh
-$ git clone https://github.com/alvaromoo/lemonade.git
+git clone https://github.com/alvaromoo/lemonade.git
 ```
 
 Una vez clonado, desde la raíz, instalamos los módulos de Gulp.
 ```sh
-$ npm install
+npm install
 ```
 
 Finalmente podemos arrancar el proyecto.
