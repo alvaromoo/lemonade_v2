@@ -25,7 +25,7 @@ npm install
 
 Finalmente podemos arrancar el proyecto.
 ```sh
-$ gulp
+gulp
 ```
 
 
