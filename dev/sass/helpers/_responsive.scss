@@ -3,7 +3,6 @@
 
 	// Breakpoints
 	$break-desktop: 1050px;
-	$break-boxes: 880px;
 	$break-tablet: 720px;
 	$break-phablet: 600px;
 	$break-phone: 480px;
@@ -11,7 +10,6 @@
 	// Variables
 	$breaks:
 		'max-desktop' 'min-desktop' $break-desktop,
-		'max-boxes' 'min-boxes' $break-boxes,
 		'max-tablet' 'min-tablet' $break-tablet,
 		'max-phablet' 'min-phablet' $break-phablet,
 		'max-phone' 'min-phone' $break-phone;
