@@ -44,5 +44,9 @@ module.exports = {
 		host: 'http://localhost:8080',
 		browser: 'chrome',
 		out: basePaths.app
+	},
+	htaccess: {
+		in: basePaths.dev + 'htaccess/.htaccess',
+		out: basePaths.app
 	}
 }
