@@ -14,6 +14,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/proximity_tuenti/1607_landing_tarifa#readme",
   "devDependencies": {
+    "apache-server-configs": "^2.14.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-clean-css": "^2.0.11",

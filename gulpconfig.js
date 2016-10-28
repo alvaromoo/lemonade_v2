@@ -46,7 +46,7 @@ module.exports = {
 		out: basePaths.app
 	},
 	htaccess: {
-		in: basePaths.dev + 'htaccess/.htaccess',
+		in: basePaths.node + 'apache-server-configs/dist/.htaccess',
 		out: basePaths.app
 	}
 }
