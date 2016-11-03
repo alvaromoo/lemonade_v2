@@ -15,7 +15,11 @@
   "homepage": "https://bitbucket.org/proximity_tuenti/1607_landing_tarifa#readme",
   "devDependencies": {
     "apache-server-configs": "^2.14.0",
-    "gulp": "^3.9.1",
+    "babel-core": "^5.8.25",
+    "babel-plugin-angular2-annotations": "^2.0.1",
+    "babelify": "^6.3.0",
+    "browserify": "^11.0.1",
+    "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-clean-css": "^2.0.11",
     "gulp-compass": "^2.1.0",
@@ -32,6 +36,10 @@
     "gulp-sass": "^2.3.2",
     "gulp-uglify": "^1.5.4",
     "gulp-watch": "^4.3.8",
-    "require-dir": "^0.3.0"
+    "http-server": "^0.8.5",
+    "require-dir": "^0.3.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.6.0"
   }
 }
